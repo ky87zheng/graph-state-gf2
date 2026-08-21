@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Simulation checkpoints can be large and are reproducible.
+outputs/checkpoints_seed*/
+
+# Temporary pickle files
+*.pkl.tmp
